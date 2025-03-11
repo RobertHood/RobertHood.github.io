@@ -27,14 +27,15 @@
         </div>
     </nav>
 
+
     <div class="email-container">
         <form class="email-form">
             <h2>Email me!</h2>
-            <input id="senderEmail" class="senderEmail" placeholder="Email" required>
-            <input id="from" class="from" placeholder="From" required>
-            <input id="title" class="title" placeholder="Title" required>
-            <textarea id="content"placeholder="Content" required></textarea>
-            <button type="submit" id="send" onclick="submitEmail()">Send</button>
+            <input id="senderEmail" class="senderEmail" placeholder="Email" >
+            <input id="from" class="from" placeholder="From" >
+            <input id="title" class="title" placeholder="Title" >
+            <textarea id="content"placeholder="Content" ></textarea>
+            <button id="send" onclick="submitEmail(event)">Send</button>
         </form>
         <div id="result" class="result"></div>
     </div>
